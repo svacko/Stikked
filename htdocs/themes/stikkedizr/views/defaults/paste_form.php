@@ -101,7 +101,7 @@
 											"1440" => lang('exp_1d'),
 											"10080" => lang('exp_1w'),
 											"40320" => lang('exp_1m'),
-											"483840" => lang('exp_1y'),
+											//"483840" => lang('exp_1y'),
 									);
 						echo form_dropdown('expire', $options, $expire_set, $expire_extra); ?>
 					</div>
